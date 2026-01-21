@@ -1,0 +1,1 @@
+print("skills python , js,java,c#")

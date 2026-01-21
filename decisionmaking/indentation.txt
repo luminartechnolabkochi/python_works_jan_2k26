@@ -1,0 +1,14 @@
+
+
+Food:
+
+    breakfast:
+        idly
+        dosa
+    lunch:
+        meals
+
+    snacks:
+        cutlet
+
+movies=>malayalam[ml1,ml2]=>thamil [tm1,tm2] => kannada [km1,km2]

@@ -1,0 +1,25 @@
+DecisionMaking:
+    if :
+    elif:
+    else:
+    match:
+    case:
+
+Looping 
+    while:
+    for:
+
+functions
+   def :
+
+objectorientedprogramming
+    class :
+
+errorhandling
+    try:
+    except:
+    finally:
+
+
+
+
