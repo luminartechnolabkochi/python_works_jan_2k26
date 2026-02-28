@@ -1,0 +1,37 @@
+
+
+python
+
+    interpreted and dynamically typed
+
+identifiers : names (variable_name) (function_name)
+              camelCase
+              PascalCase
+              snake_case
+              kebab-case
+
+variables: container for storing values
+         :variable_name = value
+
+datatype: [int,float,string,boolean] | [list,set,tuple,dictionary]
+
+operators:
+        A.o(+,-,/,*,%,//,**)
+        R.o(<.<,<=,>=,==,!=)
+        L.o(and,or,not)
+        m.o(in,not in)
+
+Decisionmaking:
+        if..else
+        if..elif...else
+        match...case
+
+functions
+         print("message)
+         input("message)->str
+         round(number,ndigit) # round(3.456,2) 
+         type(varibale)=> return data type
+
+
+
+looping

@@ -1,0 +1,23 @@
+import requests
+from rest_framework.views import APIView
+from rest_framework.response import Response
+
+class DietSuggestionView(APIView):
+    def post(self, request):
+
+        prompt = request.data.get("prompt")
+
+        API_URL = "https://router.huggingface.co/hf-inference/models/google/flan-t5-large"
+
+        headers = {
+            "Authorization": "Bearer YOUR_HF_TOKEN",
+            "Content-Type": "application/json"
+        }
+
+        payload = {
+            "inputs": prompt
+        }
+
+        response = requests.post(API_URL, headers=headers, json=payload)
+
+        return Response(response.json())

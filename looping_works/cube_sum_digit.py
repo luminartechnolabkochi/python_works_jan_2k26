@@ -1,0 +1,18 @@
+
+number = 123
+
+sum = 0
+
+while(number!=0):#123!=0 12!0 1!=0
+
+    last_digit = number%10#123%10=>3 12%10=>2 1%10=>1
+
+    cube = last_digit**3#3**3=27 2**3=>8 1**3=>1
+
+    sum = sum+cube#0+27=>27+8=>35+1>36
+
+    number=number//10 #123//10=>12 12//10=1 1//10=>0
+
+print(sum)
+
+

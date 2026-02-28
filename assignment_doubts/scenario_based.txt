@@ -1,0 +1,132 @@
+====================================
+CONDITIONAL LOGIC PRACTICE QUESTIONS
+(Pattern-Based Problems)
+====================================
+
+Pattern:
+Input → Condition check → Nested condition → Output
+
+------------------------------------
+1. ATM Withdrawal
+------------------------------------
+Task:
+- Ask for PIN
+
+If PIN is correct:
+    - Ask for withdrawal amount
+    - If amount ≤ balance:
+        "Withdrawal successful"
+    - Else:
+        "Insufficient balance"
+Else:
+    "Incorrect PIN"
+
+------------------------------------
+2. Login System
+------------------------------------
+Task:
+- Ask for username
+- Ask for password
+
+If username and password are correct:
+    "Login successful"
+Else:
+    "Invalid credentials"
+
+------------------------------------
+3. Online Shopping – Coupon Check
+------------------------------------
+Task:
+- Ask for coupon code
+
+If coupon code is valid:
+    - Ask for cart amount
+    - If amount ≥ 1000:
+        "Coupon applied"
+    - Else:
+        "Minimum purchase not met"
+Else:
+    "Invalid coupon"
+
+------------------------------------
+4. Movie Ticket Booking
+------------------------------------
+Task:
+- Ask for age
+
+If age ≥ 18:
+    - Ask for seat availability
+    - If seats available:
+        "Ticket booked"
+    - Else:
+        "House full"
+Else:
+    "Not eligible to watch the movie"
+
+------------------------------------
+5. Exam Result System
+------------------------------------
+Task:
+- Ask for roll number
+
+If roll number exists:
+    - Ask for marks
+    - If marks ≥ 40:
+        "Pass"
+    - Else:
+        "Fail"
+Else:
+    "Invalid roll number"
+
+------------------------------------
+6. Bank Loan Eligibility
+------------------------------------
+Task:
+- Ask for monthly income
+
+If income ≥ 25,000:
+    - Ask for credit score
+    - If credit score ≥ 700:
+        "Loan approved"
+    - Else:
+        "Low credit score"
+Else:
+    "Income not sufficient"
+
+------------------------------------
+7. Mobile Unlock System
+------------------------------------
+Task:
+- Ask for unlock pattern
+
+If pattern is correct:
+    - Ask for fingerprint
+    - If fingerprint matches:
+        "Phone unlocked"
+    - Else:
+        "Fingerprint mismatch"
+Else:
+    "Wrong pattern"
+
+------------------------------------
+8. Restaurant Order System
+------------------------------------
+Task:
+- Ask for table number
+
+If table exists:
+    - Ask for food availability
+    - If food available:
+        "Order placed"
+    - Else:
+        "Item out of stock"
+Else:
+    "Invalid table number"
+
+------------------------------------
+Practice Instruction:
+------------------------------------
+- Convert each task into a Python program
+- Use if, elif, else
+- No loops required
+- Focus on nested conditions

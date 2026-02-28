@@ -1,0 +1,16 @@
+
+
+fr = open("fileoperations\\orders.txt","r")
+
+
+all_orders=[]
+
+for line in fr:
+
+    cleaned_line = line.rstrip("\n")
+
+    all_orders.append(cleaned_line)
+
+order_count = {o:all_orders.count(o) for o in all_orders}
+
+print(order_count)

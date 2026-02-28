@@ -10,3 +10,7 @@ else:
 
     print("number not / by 8")
 
+# summary
+# mcq
+# match case 
+# looping

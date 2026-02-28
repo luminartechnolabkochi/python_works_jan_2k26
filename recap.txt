@@ -1,0 +1,89 @@
+#python (syntax and rules)
+interpreted
+coding notations:
+identifiers 
+
+variable 
+class name
+
+functions
+
+
+    a)camelCasae => variableName,functions XX java
+    b)snake_case => python [variable_name,function_name,file_name] 
+    c)PascalCase => all langauges [ClassName]
+    d)kebab-case => html,css[] 
+
+variable:
+
+    variable_name = value
+
+data types:
+       int
+       float
+       str
+       bool
+
+       collection type
+
+ 
+operators:
+    A.O(+,-,*,/,%,//,**)
+    r.o(<,>,<=,>=,==,!=)
+    l.o(and,or,not)
+
+decision making:
+    if...else
+    if...elif...else
+    switch..case
+
+looping:
+    while
+    for
+
+function: 
+
+string and string methods:
+
+    class 
+    object
+
+class Bike:
+
+    def start(self):
+
+        pass
+
+class Bottle:
+
+    def open(self):
+        pass
+
+start()
+
+
+
+class Person:
+
+    def respond(self):
+
+            pass
+
+reference_name = ClassName()
+
+reference_name.method()
+
+sreeyesh_instance = Person()
+
+sreeyesh_instance.respond()
+
+
+class str:
+
+    def capitalize()
+
+    def casefold()
+
+    def find()
+
+    def rfind()

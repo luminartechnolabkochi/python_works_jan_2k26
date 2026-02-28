@@ -1,0 +1,52 @@
+1)Blood Sugar Classification (Diabetes Pattern)
+    Input: fasting_blood_sugar
+    Conditions:
+    If sugar < 100 → Normal
+    If sugar between 100 and 125 → Prediabetes
+    If sugar >= 126 → Diabetes
+
+
+2)Write a Python program using if elif else to print the health status.
+Blood Pressure Category
+    Input: systolic_bp
+    Conditions:
+    If bp < 120 → Normal
+    If bp between 120 and 129 → Elevated
+    If bp between 130 and 139 → High BP Stage 1
+    If bp >= 140 → High BP Stage 2
+
+3)Heart Rate Status
+    Input: heart_rate (beats per minute)
+    Conditions:
+    If heart_rate < 60 → Low Heart Rate
+    If heart_rate between 60 and 100 → Normal
+    If heart_rate > 100 → High Heart Rate
+
+
+4)Oxygen Level (SpO2)
+    Input: oxygen_level
+    Conditions:
+    If oxygen_level >= 95 → Normal
+    If oxygen_level between 90 and 94 → Mild Concern
+    If oxygen_level < 90 → Critical
+
+5)Sleep Duration Health Check
+    Input: hours_of_sleep
+    Conditions:
+    If sleep < 6 → Sleep Deprived
+    If sleep between 6 and 8 → Healthy Sleep
+    If sleep > 8 → Oversleeping
+
+6)Stress Level Indicator
+    Input: stress_score (1 to 10)
+    Conditions:
+    If score between 1 and 3 → Low Stress
+    If score between 4 and 6 → Moderate Stress
+    If score between 7 and 10 → High Stress
+
+7)Daily Steps Activity Level
+    Input: steps
+    Conditions:
+    If steps < 5000 → Sedentary
+    If steps between 5000 and 9999 → Moderately Active
+    If steps >= 10000 → Active
