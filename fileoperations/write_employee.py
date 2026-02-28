@@ -3,7 +3,7 @@
 
 employees=["hari","dixon","joji","libin","shafi"]
 
-fw = open("employees.txt","w")
+fw = open("employeesnew.txt","w")
 
 for e in employees:
 
