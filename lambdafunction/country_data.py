@@ -75,7 +75,7 @@ asian_countries= [c.get("country_name") for c in countries_data  if c.get("regio
 
 sorted_country = sorted(countries_data,key=lambda c:c.get("population"))
 
-maped_sountry = [{"name":c.get("country_name"),"population":c.get("population")} for c in sorted_country]
+maped_sountry = [[c.get("country_name"),c.get("population")] for c in sorted_country]
 print(maped_sountry)
 
 # display all unique region
@@ -88,3 +88,7 @@ print(maped_sountry)
 independent_countries = [c.get("country_name") for c in countries_data if c.get("is_independent")==True]
 
 print(independent_countries)
+
+# map()
+# filter()
+# reduce()

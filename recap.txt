@@ -41,7 +41,7 @@ looping:
     while
     for
 
-function: 
+function: lambda function
 
 string and string methods:
 
@@ -87,3 +87,17 @@ class str:
     def find()
 
     def rfind()
+
+
+list
+tuple
+set
+dictionary
+
+nestedcollection
+
+comprehension
+
+files
+
+error handling
